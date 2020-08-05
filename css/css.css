@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "freesansbold";
+    src        : url("fonts/freesansbold.ttf") format("truetype");
+    font-weight: normal;
+    font-style : normal;
+}
+body, html,{
+    padding: 0;
+    margin : 0;
+    width  : 100%;
+}
+header{
+    background-color: lightseagreen;
+    text-align      : center;
+}
+
+footer{
+    color           : gold;
+    display         : flex;
+    flex-direction  : row;
+    justify-content : space-between;
+    background-color: lightseagreen;
+    position        : relative;
+    bottom          : 0px;
+    width           : 100%;
+    
+}
+nav{
+    display       : flex;
+    flex-direction: column;
+   
+}
+.contentmenu{
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    margin-bottom  : 10%;
+    margin-top     : 10%;
+  
+}
+.prochainement{
+    text-align      : center;
+    background-color: lightseagreen;
+    margin-left     : 35%;
+    margin-right    : 35%;
+}
+h1{
+    font-family: "freesansbold";
+    color      : gold;
+}
