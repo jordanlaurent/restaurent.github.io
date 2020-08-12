@@ -8,6 +8,7 @@ body, html,{
     padding: 0;
     margin : 0;
     width  : 100%;
+    
 }
 header{
     background-color: lightseagreen;
@@ -44,7 +45,61 @@ nav{
     margin-left     : 35%;
     margin-right    : 35%;
 }
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+    background-color: lightseagreen;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+@font-face { /* font utiliser pour titre de page */
+    font-family: 'Embrionic55';
+    src: url('fonts/Embrionic55.woff2') format('woff2'),
+        url('fonts/Embrionic55.woff') format('woff'),
+        url('fonts/Embrionic55.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour texte la note enchantée */
+    font-family: 'Thyssen J';
+    src: url('Thyssen-JItalic.woff2') format('woff2'),
+        url('Thyssen-JItalic.woff') format('woff'),
+        url('Thyssen-JItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
 h1{
-    font-family: "freesansbold";
     color      : gold;
+        font-family: 'Embrionic55';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+}
+ul{
+    list-style: none;
+}
+.sectioncarte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+.articlecarte{
+    display: flex;
+    flex-direction: row;
+}
+.lnefont{
+    font-family: 'Thyssen J';
+    font-weight: normal;
+    font-style: italic;
+    font-size: 24px;
+
 }
