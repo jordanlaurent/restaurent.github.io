@@ -6,9 +6,38 @@
 header, footer{
 background-color:$colorheaderfooter ;
 }
+
+/* couleur de fonds carte page individuelle */
 .sectionlne{
     background-color: $colorsectionlne;
 }
+.sectionlpdg{
+    background-color: $colorindexlpdg;
+}
+.sectionlcalf{
+    background-color: $colorindexlcalf;
+}
+.sectionlddp{
+    background-color: $colorindexlddp ;
+}
+
+/* page index */
+.gauche1 , .gauche2 , .droite1 , .droite2 {
+box-shadow: 0px 0px 10px #000000;
+}
+.gauche1{
+    background-color: $colorindexlne;
+}
+.gauche2{
+    background-color: $colorindexlddp;
+}
+.droite1{
+    background-color:$colorindexlcalf ;
+}
+.droite2{
+    background-color: $colorindexlpdg;
+}
+
 /* COLORS FONTS */
 
 header a , footer, footer a , .prochainement{

@@ -112,20 +112,27 @@ header a{
     font-family: "Embrionic55";
 }
 
-h1 a , .droite > li, .gauche1 > li , .gauche2 > li, footer > ul > li, footer > ul > a >li{
+a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 > li, footer > ul > li, footer > ul > a >li{
     text-decoration: none;
     list-style: none;
      }
-.lnefont , .lpdgfont, .lcalffont{
+
+/* fonts page index */
+.gauche1 , .gauche2 , .droite1 , .droite2{
+    text-align: center;
+    line-height: 65px;
+}
+/* fonts carte page individuelle */ 
+.lnefont , .lpdgfont, .lcalffont, .lddpfont{
     list-style: none;
 }
-.lnefont li /* font utiliser pour texte la note enchantée */{
+.lnefont li {
 font-family: "Thyssen J";
 }
-h2.lnefont  /* font utiliser pour titre la note enchentée */{
+h2.lnefont {
 font-family:"Ma Shan Zheng";
 }
-h3.lnefont/* font utiliser pour inter-titre la note enchentée*/{
+h3.lnefont{
     font-family: "VTCSundaykomixcaps";
 }
 .lcalffont li {
