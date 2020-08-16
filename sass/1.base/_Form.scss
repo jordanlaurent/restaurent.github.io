@@ -35,7 +35,6 @@ nav{
 }
 
 .sectioncarte{
-    text-align: center;
     margin-bottom: 5%;
     margin-top: 150px;
 }
@@ -46,11 +45,18 @@ nav{
 }
 
 /* FLEXBOX */
-    footer , .articlecarte ,.contentmenu{
+    footer ,.contentmenu{
      display: flex; flex-direction: row; 
      justify-content: center;
      width: 100%;
      }
+    
+     .articlecarte{
+        display: flex; flex-direction: row;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 /* Button */
 
 .button1 {

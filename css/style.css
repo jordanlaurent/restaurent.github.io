@@ -117,46 +117,57 @@ a, h1 a, .droite > li, .gauche1 > li, .gauche2 > li, .droite1 > li, .droite2 > l
 
 .lnefont li {
   font-family: "Thyssen J";
+  text-align: left;
 }
 
 h2.lnefont {
   font-family: "Ma Shan Zheng";
+  text-align: center;
 }
 
 h3.lnefont {
   font-family: "VTCSundaykomixcaps";
+  text-align: center;
 }
 
 .lcalffont li {
   font-family: "Rasa";
+  text-align: left;
 }
 
 h2.lcalffont {
   font-family: "Munson";
+  text-align: center;
 }
 
 h3.lcalffont {
   font-family: "EucrosiaUPC";
+  text-align: center;
 }
 
 .lpdgfont li {
   font-family: "Worstveld Sling";
+  text-align: left;
 }
 
 h2.lpdgfont, h3.lpdgfont {
   font-family: "Segoe Print";
+  text-align: center;
 }
 
 .lddpfont li {
   font-family: "Hashtag";
+  text-align: left;
 }
 
 h2.lddpfont {
   font-family: "Mcgannahan";
+  text-align: center;
 }
 
 h3.lddpfont {
   font-family: "JieSi BanXing";
+  text-align: center;
 }
 
 body, html {
@@ -198,7 +209,6 @@ nav {
 }
 
 .sectioncarte {
-  text-align: center;
   margin-bottom: 5%;
   margin-top: 150px;
 }
@@ -209,11 +219,19 @@ nav {
 }
 
 /* FLEXBOX */
-footer, .articlecarte, .contentmenu {
+footer, .contentmenu {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.articlecarte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Button */
