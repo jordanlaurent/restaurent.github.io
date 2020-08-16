@@ -63,24 +63,7 @@ nav{
     margin-left: 30%;
     margin-top: 150px;
 }
-@font-face { /* font utiliser pour titre de page */
-    font-family: 'Embrionic55';
-    src: url('fonts/Embrionic55.woff2') format('woff2'),
-        url('fonts/Embrionic55.woff') format('woff'),
-        url('fonts/Embrionic55.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {/* font utiliser pour texte la note enchantée */
-    font-family: 'Thyssen J';
-    src: url('Thyssen-JItalic.woff2') format('woff2'),
-        url('Thyssen-JItalic.woff') format('woff'),
-        url('Thyssen-JItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
+
 h1{
     color      : gold;
         font-family: 'Embrionic55';

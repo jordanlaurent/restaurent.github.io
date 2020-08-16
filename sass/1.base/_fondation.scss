@@ -1,0 +1,108 @@
+@font-face { /* font utiliser pour titre de page */
+    font-family: 'Embrionic55';
+    src: url('fonts/Embrionic55.woff2') format('woff2'),
+        url('fonts/Embrionic55.woff') format('woff'),
+        url('fonts/Embrionic55.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour texte la note enchantée */
+    font-family: 'Thyssen J';
+    src: url('Thyssen-JItalic.woff2') format('woff2'),
+        url('Thyssen-JItalic.woff') format('woff'),
+        url('Thyssen-JItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour titre la note enchentée */
+    font-family: 'Ma Shan Zheng';
+    src: url('MaShanZheng-Regular.woff2') format('woff2'),
+        url('MaShanZheng-Regular.woff') format('woff'),
+        url('MaShanZheng-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour inter-titre la note enchentée */
+    font-family: 'VTCSundaykomixcaps';
+    src: url('VTCSundaykomixcaps.woff2') format('woff2'),
+        url('VTCSundaykomixcaps.woff') format('woff'),
+        url('VTCSundaykomixcaps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour texte le chic a la francaise */
+    font-family: 'Rasa';
+    src: url('Rasa-Regular.woff2') format('woff2'),
+        url('Rasa-Regular.woff') format('woff'),
+        url('Rasa-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour titre le chic a la francaise */
+    font-family: 'Munson';
+    src: url('Munson-Bold.woff2') format('woff2'),
+        url('Munson-Bold.woff') format('woff'),
+        url('Munson-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour inter-titre le chic a la francaise */
+    font-family: 'EucrosiaUPC';
+    src: url('EucrosiaUPCBold.woff2') format('woff2'),
+        url('EucrosiaUPCBold.woff') format('woff'),
+        url('EucrosiaUPCBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour texte le delice des papilles */
+    font-family: 'Hashtag';
+    src: url('Hashtag.woff2') format('woff2'),
+        url('Hashtag.woff') format('woff'),
+        url('Hashtag.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour titre le delice des papilles */
+    font-family: 'Mcgannahan';
+    src: url('Mcgannahan.woff2') format('woff2'),
+        url('Mcgannahan.woff') format('woff'),
+        url('Mcgannahan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour inter-titre le delice des papilles */
+    font-family: 'JieSi BanXing';
+    src: url('JiesiBanxingAlpha.woff2') format('woff2'),
+        url('JiesiBanxingAlpha.woff') format('woff'),
+        url('JiesiBanxingAlpha.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour texte la palette du gout */
+    font-family: 'Worstveld Sling';
+    src: url('WorstveldSlingBold.woff2') format('woff2'),
+        url('WorstveldSlingBold.woff') format('woff'),
+        url('WorstveldSlingBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {/* font utiliser pour titre et inter-titre la palette du gout */
+    font-family: 'Segoe Print';
+    src: url('SegoePrint.woff2') format('woff2'),
+        url('SegoePrint.woff') format('woff'),
+        url('SegoePrint.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
