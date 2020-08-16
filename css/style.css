@@ -189,8 +189,6 @@ footer {
 
 .sectioncarte {
   align-items: center;
-  margin-left: 25%;
-  margin-right: 25%;
   margin-bottom: 5%;
   margin-top: 150px;
 }
@@ -208,19 +206,23 @@ nav, .sectioncarte {
 
 /* Button */
 .button1 {
-  background-color: #20b2aa;
+  background-color: #579c87;
   border-radius: 10px;
   padding: 10px;
 }
 
 /* COLORS CONTENT */
 header, footer {
-  background-color: #20b2aa;
+  background-color: #579c87;
+}
+
+.sectionlne {
+  background-color: #fcdfdb;
 }
 
 /* COLORS FONTS */
 header a, footer, footer a, .prochainement {
-  color: #ffd700;
+  color: #fcca46;
 }
 
 @media screen and (max-width: 1024px) {
@@ -269,6 +271,11 @@ header a, footer, footer a, .prochainement {
 
   footer {
     font-size: 20px;
+  }
+
+  .sectioncarte {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 

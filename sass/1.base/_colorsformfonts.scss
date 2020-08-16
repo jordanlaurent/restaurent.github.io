@@ -4,9 +4,11 @@
 /* COLORS CONTENT */
 
 header, footer{
-background-color: $colorheaderfooter ;
+background-color:$colorheaderfooter ;
 }
-
+.sectionlne{
+    background-color: $colorsectionlne;
+}
 /* COLORS FONTS */
 
 header a , footer, footer a , .prochainement{
