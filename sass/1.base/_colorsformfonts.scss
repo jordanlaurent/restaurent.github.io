@@ -1,0 +1,14 @@
+@import "_colors.scss";
+
+
+/* COLORS CONTENT */
+
+header, footer{
+background-color: $colorheaderfooter ;
+}
+
+/* COLORS FONTS */
+
+header a , footer, footer a , .prochainement{
+    color:$colorH1fonts ;
+}

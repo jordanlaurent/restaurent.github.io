@@ -1,0 +1,58 @@
+@import "_colors.scss";
+
+
+body, html{
+    padding: 0px;
+    margin : 0px;
+    width  : 100%;
+    }
+
+header, footer{
+    width: 100%;
+    position: absolute;
+    left: 0; 
+}
+header{
+    text-align: center;
+    top: 0;
+}
+footer{
+    bottom: 0;
+    justify-content: space-around;
+}
+.contentmenu{
+    justify-content: space-around;
+    margin-bottom  : 10%;
+    margin-top     : 10%;
+    margin-top: 150px;
+}
+.prochainement{
+    text-align      : center;
+    margin-left     : 35%;
+    margin-right    : 35%;
+}
+
+.sectioncarte{
+    align-items: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    margin-top: 150px;
+}
+
+/* FLEXBOX */
+    footer , .articlecarte , .contentmenu{
+     display: flex; flex-direction: row; 
+     }
+
+    nav , .sectioncarte{
+     display : flex; flex-direction: column;
+     }
+
+/* Button */
+
+.button1 {
+    background-color: $colorheaderfooter;
+    border-radius: 10px;
+    padding: 10px;
+}

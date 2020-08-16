@@ -1,0 +1,275 @@
+@charset "UTF-8";
+@font-face {
+  /* font utiliser pour titre de page */
+  font-family: "Embrionic55";
+  src: url("../fonts/Embrionic55.woff2") format("woff2"), url("../fonts/Embrionic55.woff") format("woff"), url("../fonts/Embrionic55.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour texte la note enchantée */
+  font-family: "Thyssen J";
+  src: url("../fonts/Thyssen-JItalic.woff2") format("woff2"), url("../fonts/Thyssen-JItalic.woff") format("woff"), url("../fonts/Thyssen-JItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour titre la note enchentée */
+  font-family: "Ma Shan Zheng";
+  src: url("../fonts/MaShanZheng-Regular.woff2") format("woff2"), url("../fonts/MaShanZheng-Regular.woff") format("woff"), url("../fonts/MaShanZheng-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour inter-titre la note enchentée */
+  font-family: "VTCSundaykomixcaps";
+  src: url("../fonts/VTCSundaykomixcaps.woff2") format("woff2"), url("../fonts/VTCSundaykomixcaps.woff") format("woff"), url("../fonts/VTCSundaykomixcaps.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour texte le chic a la francaise */
+  font-family: "Rasa";
+  src: url("../fonts/Rasa-Regular.woff2") format("woff2"), url("../fonts/Rasa-Regular.woff") format("woff"), url("../fonts/Rasa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour titre le chic a la francaise */
+  font-family: "Munson";
+  src: url("../fonts/Munson-Bold.woff2") format("woff2"), url("../fonts/Munson-Bold.woff") format("woff"), url("../fonts/Munson-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour inter-titre le chic a la francaise */
+  font-family: "EucrosiaUPC";
+  src: url("../fonts/EucrosiaUPCBold.woff2") format("woff2"), url("../fonts/EucrosiaUPCBold.woff") format("woff"), url("../fonts/EucrosiaUPCBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour texte le delice des papilles */
+  font-family: "Hashtag";
+  src: url("../fonts/Hashtag.woff2") format("woff2"), url("../fonts/Hashtag.woff") format("woff"), url("../fonts/Hashtag.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour titre le delice des papilles */
+  font-family: "Mcgannahan";
+  src: url("../fonts/Mcgannahan.woff2") format("woff2"), url("../fonts/Mcgannahan.woff") format("woff"), url("../fonts/Mcgannahan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour inter-titre le delice des papilles */
+  font-family: "JieSi BanXing";
+  src: url("../fonts/JiesiBanxingAlpha.woff2") format("woff2"), url("../fonts/JiesiBanxingAlpha.woff") format("woff"), url("../fonts/JiesiBanxingAlpha.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour texte la palette du gout */
+  font-family: "Worstveld Sling";
+  src: url("../fonts/WorstveldSlingBold.woff2") format("woff2"), url("../fonts/WorstveldSlingBold.woff") format("woff"), url("../fonts/WorstveldSlingBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  /* font utiliser pour titre et inter-titre la palette du gout */
+  font-family: "Segoe Print";
+  src: url("../fonts/SegoePrint.woff2") format("woff2"), url("../fonts/SegoePrint.woff") format("woff"), url("../fonts/SegoePrint.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+header a {
+  font-family: "Embrionic55";
+}
+
+h1 a, .droite > li, .gauche1 > li, .gauche2 > li, footer > ul > li, footer > ul > a > li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.lnefont, .lpdgfont, .lcalffont {
+  list-style: none;
+}
+
+.lnefont li {
+  font-family: "Thyssen J";
+}
+
+h2.lnefont {
+  font-family: "Ma Shan Zheng";
+}
+
+h3.lnefont {
+  font-family: "VTCSundaykomixcaps";
+}
+
+.lcalffont li {
+  font-family: "Rasa";
+}
+
+h2.lcalffont {
+  font-family: "Munson";
+}
+
+h3.lcalffont {
+  font-family: "EucrosiaUPC";
+}
+
+.lpdgfont li {
+  font-family: "Worstveld Sling";
+}
+
+h2.lpdgfont, h3.lpdgfont {
+  font-family: "Segoe Print";
+}
+
+.lddpfont li {
+  font-family: "Hashtag";
+}
+
+h2.lddpfont {
+  font-family: "Mcgannahan";
+}
+
+h3.lddpfont {
+  font-family: "JieSi BanXing";
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+header, footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+header {
+  text-align: center;
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+  justify-content: space-around;
+}
+
+.contentmenu {
+  justify-content: space-around;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  margin-top: 150px;
+}
+
+.prochainement {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.sectioncarte {
+  align-items: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 5%;
+  margin-top: 150px;
+}
+
+/* FLEXBOX */
+footer, .articlecarte, .contentmenu {
+  display: flex;
+  flex-direction: row;
+}
+
+nav, .sectioncarte {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button */
+.button1 {
+  background-color: #20b2aa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* COLORS CONTENT */
+header, footer {
+  background-color: #20b2aa;
+}
+
+/* COLORS FONTS */
+header a, footer, footer a, .prochainement {
+  color: #ffd700;
+}
+
+@media screen and (max-width: 1024px) {
+  .lddpfont li, .lpdgfont li, .lcalffont li, .lnefont li {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+
+  h2.lnefont, h2.lcalffont, h2.lpdgfont, h2.lddpfont {
+    font-size: 45px;
+    white-space: nowrap;
+  }
+
+  h3.lnefont, h3.lcalffont, h3.lpdgfont, h3.lddpfont {
+    font-size: 25px;
+    white-space: nowrap;
+  }
+
+  header a {
+    font-size: 60px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lddpfont li, .lpdgfont li, .lcalffont li, .lnefont li {
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  h2.lnefont, h2.lcalffont, h2.lpdgfont, h2.lddpfont {
+    font-size: 65px;
+    white-space: nowrap;
+  }
+
+  h3.lnefont, h3.lcalffont, h3.lpdgfont, h3.lddpfont {
+    font-size: 45px;
+    white-space: nowrap;
+  }
+
+  header a {
+    font-size: 80px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
