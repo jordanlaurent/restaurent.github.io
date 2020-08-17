@@ -23,6 +23,7 @@ box-shadow: 0px 0px 10px #000000;
 /* COLORS FONTS */
 
 header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
+header a:hover {color:#ffd700;}
 
 /* la note enchenter */
 .notemusique{
@@ -36,17 +37,19 @@ header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
     background-image       : linear-gradient(100deg, #d38140,#8f5bfe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.color_lcalf_article1{color: #c67412;}.color_lcalf_article2{color: #a56799;}.color_lcalf_article3{color: #7554ce;}
-.lcalf_h3_forme:before, .lcalf_h3_forme:after,{background: linear-gradient(100deg,blue,pink);}
-
+.color_lcalf_article1{color: $colorlcalf1;}.color_lcalf_article2{color: $colorlcalf2;}.color_lcalf_article3{color: $colorlcalf3;}
+.lcalf_h3_forme1:before, .lcalf_h3_forme1:after,{ background-color:$colorlcalf1;}
+.lcalf_h3_forme2:before, .lcalf_h3_forme2:after,{ background-color:$colorlcalf2;}
+.lcalf_h3_forme3:before, .lcalf_h3_forme3:after,{ background-color:$colorlcalf3;}
 /* le delice des papilles */
 .color_lddp_titre{
     background-image       : linear-gradient(100deg, #052add,#1a91fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 .color_lddp_article1{}.color_lddp_article2{}.color_lddp_article3{}
-.lddp_h3_forme:before, .lddp_h3_forme:after{}
-
+.lddp_h3_forme1:before, .lddp_h3_forme1:after{ background-color:$colorlddp1 ;}
+.lddp_h3_forme2:before, .lddp_h3_forme2:after{ background-color: $colorlddp2;}
+.lddp_h3_forme3:before, .lddp_h3_forme3:after{ background-color:$colorlddp3 ;}
 /* la palette du gout */
 .color_lpdg_titre{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);

@@ -108,6 +108,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 header a{font-family: "Embrionic55";}
 
 a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 > li, footer > ul > li, footer > ul > a >li{
@@ -124,7 +125,7 @@ a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 >
 .lnefont , .lpdgfont, .lcalffont, .lddpfont{
     list-style: none;}
 
-.lnefont li {
+.lnefont li, {
 font-family: "Thyssen J";
 text-align : left;}
 h2.lnefont {
@@ -133,7 +134,11 @@ text-align : center;}
 h3.lnefont{
     font-family: "VTCSundaykomixcaps";
     text-align : center;}
-
+    .lnefont {
+        font-family: "VTCSundaykomixcaps";
+        text-align: center;
+        font-size: 20px;
+    }
 .lcalffont li {
     font-family: "Rasa" ;
     text-align : left;}
@@ -143,14 +148,22 @@ text-align : center;}
 h3.lcalffont{
 font-family: "EucrosiaUPC";
 text-align : center;}
-
+     .lcalffont{
+        font-family: "EucrosiaUPC";
+        text-align : center;
+        font-size: 40px;
+    }
 .lpdgfont li{
 font-family: "Worstveld Sling";
 text-align : left;}
 h2.lpdgfont , h3.lpdgfont {
  font-family: "Segoe Print";
  text-align : center;}
-
+ .lpdgfont {
+    font-family: "Segoe Print";
+    text-align : center;
+    font-size: 25px;
+}
 .lddpfont li {
     font-family: "Hashtag";
     text-align : left;}
@@ -160,3 +173,8 @@ h2.lddpfont{
 h3.lddpfont{
     font-family: "JieSi BanXing";
     text-align : center;}
+    .lddpfont{
+        font-family: "JieSi BanXing";
+        text-align : center;
+        font-size: 25px;
+    }

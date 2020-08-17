@@ -130,6 +130,12 @@ h3.lnefont {
   text-align: center;
 }
 
+.lnefont {
+  font-family: "VTCSundaykomixcaps";
+  text-align: center;
+  font-size: 20px;
+}
+
 .lcalffont li {
   font-family: "Rasa";
   text-align: left;
@@ -145,6 +151,12 @@ h3.lcalffont {
   text-align: center;
 }
 
+.lcalffont {
+  font-family: "EucrosiaUPC";
+  text-align: center;
+  font-size: 40px;
+}
+
 .lpdgfont li {
   font-family: "Worstveld Sling";
   text-align: left;
@@ -153,6 +165,12 @@ h3.lcalffont {
 h2.lpdgfont, h3.lpdgfont {
   font-family: "Segoe Print";
   text-align: center;
+}
+
+.lpdgfont {
+  font-family: "Segoe Print";
+  text-align: center;
+  font-size: 25px;
 }
 
 .lddpfont li {
@@ -168,6 +186,12 @@ h2.lddpfont {
 h3.lddpfont {
   font-family: "JieSi BanXing";
   text-align: center;
+}
+
+.lddpfont {
+  font-family: "JieSi BanXing";
+  text-align: center;
+  font-size: 25px;
 }
 
 body, html {
@@ -209,7 +233,7 @@ nav {
 }
 
 /* page carte trait h3 */
-.lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme:before, .lcalf_h3_forme:after, .lddp_h3_forme:before, .lddp_h3_forme:after {
+.lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
   content: "";
   display: inline-block;
   vertical-align: middle;
@@ -217,12 +241,12 @@ nav {
   height: 5px;
 }
 
-.lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme:before, .lddp_h3_forme:before {
+.lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
   margin-right: 6%;
   margin-left: 3%;
 }
 
-.lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme:after, .lddp_h3_forme:after {
+.lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
   margin-left: 6%;
 }
 
@@ -308,6 +332,10 @@ header a, footer, footer a, .prochainement {
   color: #fcca46;
 }
 
+header a:hover {
+  color: #ffd700;
+}
+
 /* la note enchenter */
 .notemusique {
   background-image: linear-gradient(130deg, #ef495f, #f6916a);
@@ -338,8 +366,16 @@ header a, footer, footer a, .prochainement {
   color: #7554ce;
 }
 
-.lcalf_h3_forme:before, .lcalf_h3_forme:after {
-  background: linear-gradient(100deg, blue, pink);
+.lcalf_h3_forme1:before, .lcalf_h3_forme1:after {
+  background-color: #c67412;
+}
+
+.lcalf_h3_forme2:before, .lcalf_h3_forme2:after {
+  background-color: #a56799;
+}
+
+.lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
+  background-color: #7554ce;
 }
 
 /* le delice des papilles */
@@ -347,6 +383,18 @@ header a, footer, footer a, .prochainement {
   background-image: linear-gradient(100deg, #052add, #1a91fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.lddp_h3_forme1:before, .lddp_h3_forme1:after {
+  background-color: #0e32de;
+}
+
+.lddp_h3_forme2:before, .lddp_h3_forme2:after {
+  background-color: #0b73f3;
+}
+
+.lddp_h3_forme3:before, .lddp_h3_forme3:after {
+  background-color: #4eaff7;
 }
 
 /* la palette du gout */
@@ -427,6 +475,10 @@ header a, footer, footer a, .prochainement {
   backface-visibility: hidden;
   perspective: 1000px;
   font-size: 120%;
+  background-color: #6bc9ad;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 @keyframes shake {

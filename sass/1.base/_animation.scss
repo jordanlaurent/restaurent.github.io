@@ -4,6 +4,9 @@
         backface-visibility: hidden; 
         perspective: 1000px; 
         font-size: 120%;
+        background-color: #6bc9ad;
+        border-radius: 10px;
+        padding-left: 10px; padding-right: 10px;
     } 
     
     @keyframes shake { 
