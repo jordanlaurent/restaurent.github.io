@@ -289,6 +289,42 @@ header a, footer, footer a, .prochainement {
   color: #fcca46;
 }
 
+.notemusique {
+  background-image: linear-gradient(130deg, #ef495f, #f6916a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color_lcalf_titre {
+  background-image: linear-gradient(100deg, #d38140, #8f5bfe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color_lcalf_article1 {
+  color: #c67412;
+}
+
+.color_lcalf_article2 {
+  color: #a56799;
+}
+
+.color_lcalf_article3 {
+  color: #7554ce;
+}
+
+.color_lddp_titre {
+  background-image: linear-gradient(100deg, #052add, #1a91fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color_lpdg_titre {
+  background-image: linear-gradient(100deg, #489b40, #beff7f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (max-width: 1024px) {
   .lddpfont li, .lpdgfont li, .lcalffont li, .lnefont li {
     font-size: 20px;
