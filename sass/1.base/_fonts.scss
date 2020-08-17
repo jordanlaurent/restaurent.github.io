@@ -108,9 +108,7 @@
     font-style: normal;
     font-display: swap;
 }
-header a{
-    font-family: "Embrionic55";
-}
+header a{font-family: "Embrionic55";}
 
 a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 > li, footer > ul > li, footer > ul > a >li{
     text-decoration: none;
@@ -119,57 +117,46 @@ a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 >
 
 /* fonts page index */
 .gauche1 , .gauche2 , .droite1 , .droite2{
-    text-align: center;
-    line-height: 65px;
-}
-/* fonts carte page individuelle */ 
+    text-align : center;
+    line-height: 65px;}
+
+    /* fonts carte page individuelle */ 
 .lnefont , .lpdgfont, .lcalffont, .lddpfont{
-    list-style: none;
-}
+    list-style: none;}
+
 .lnefont li {
 font-family: "Thyssen J";
-text-align: left;
-}
-
+text-align : left;}
 h2.lnefont {
-font-family:"Ma Shan Zheng";
-text-align: center;
-}
+font-family: "Ma Shan Zheng";
+text-align : center;}
 h3.lnefont{
     font-family: "VTCSundaykomixcaps";
-    text-align: center;
-}
+    text-align : center;}
+
 .lcalffont li {
-    font-family:"Rasa" ;
-    text-align: left;
-}
+    font-family: "Rasa" ;
+    text-align : left;}
 h2.lcalffont {
 font-family: "Munson";
-text-align: center;
-}
+text-align : center;}
 h3.lcalffont{
 font-family: "EucrosiaUPC";
-text-align: center;
-}
+text-align : center;}
 
 .lpdgfont li{
 font-family: "Worstveld Sling";
-text-align: left;
-}
+text-align : left;}
 h2.lpdgfont , h3.lpdgfont {
  font-family: "Segoe Print";
- text-align: center;
-}
+ text-align : center;}
 
 .lddpfont li {
     font-family: "Hashtag";
-    text-align: left;
-}
+    text-align : left;}
 h2.lddpfont{
-    font-family:"Mcgannahan";
-    text-align: center;
-}
+    font-family: "Mcgannahan";
+    text-align : center;}
 h3.lddpfont{
-    font-family:"JieSi BanXing";
-    text-align: center;
-}
+    font-family: "JieSi BanXing";
+    text-align : center;}

@@ -3,96 +3,55 @@
 
 /* COLORS CONTENT */
 
-header, footer{
-background-color:$colorheaderfooter ;
-}
+header, footer{background-color:$colorheaderfooter;}
 
 /* couleur de fonds carte page individuelle */
-.sectionlne{
-    background-color: $colorsectionlne;
-}
-.sectionlpdg{
-    background-color: $colorindexlpdg;
-}
-.sectionlcalf{
-    background-color: $colorindexlcalf;
-}
-.sectionlddp{
-    background-color: $colorindexlddp ;
-}
+.sectionlne{background-color: $colorsectionlne;}
+.sectionlpdg{background-color: $colorindexlpdg;}
+.sectionlcalf{background-color: $colorindexlcalf;}
+.sectionlddp{background-color: $colorindexlddp ;}
 
 /* page index */
 .gauche1 , .gauche2 , .droite1 , .droite2 {
 box-shadow: 0px 0px 10px #000000;
 }
-.gauche1{
-    background-color: $colorindexlne;
-}
-.gauche2{
-    background-color: $colorindexlddp;
-}
-.droite1{
-    background-color:$colorindexlcalf ;
-}
-.droite2{
-    background-color: $colorindexlpdg;
-}
+.gauche1{background-color: $colorindexlne;}
+.gauche2{background-color: $colorindexlddp;}
+.droite1{background-color:$colorindexlcalf;}
+.droite2{background-color: $colorindexlpdg;}
 
 /* COLORS FONTS */
 
-header a , footer, footer a , .prochainement{
-    color:$colorH1fonts ;
-}
+header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
 
+/* la note enchenter */
 .notemusique{
-    background-image: linear-gradient(130deg, #ef495f,#f6916a);
+    background-image       : linear-gradient(130deg, #ef495f,#f6916a);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    }
+    -webkit-text-fill-color: transparent;}
+.lne_h3_forme:before, .lne_h3_forme:after ,{background-color:black;}
+
+/* le chic a la francaise */
 .color_lcalf_titre{
-    background-image: linear-gradient(100deg, #d38140,#8f5bfe);
+    background-image       : linear-gradient(100deg, #d38140,#8f5bfe);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.color_lcalf_article1{
-   color: #c67412;
-}
+    -webkit-text-fill-color: transparent;}
+.color_lcalf_article1{color: #c67412;}.color_lcalf_article2{color: #a56799;}.color_lcalf_article3{color: #7554ce;}
+.lcalf_h3_forme:before, .lcalf_h3_forme:after,{background: linear-gradient(100deg,blue,pink);}
 
-.color_lcalf_article2{
-    color: #a56799;
-}
-
-.color_lcalf_article3{
-    color: #7554ce;
-}
-
+/* le delice des papilles */
 .color_lddp_titre{
-    background-image: linear-gradient(100deg, #052add,#1a91fa);
+    background-image       : linear-gradient(100deg, #052add,#1a91fa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    -webkit-text-fill-color: transparent;}
+.color_lddp_article1{}.color_lddp_article2{}.color_lddp_article3{}
+.lddp_h3_forme:before, .lddp_h3_forme:after{}
 
-.color_lddp_article1{
-
-}
-.color_lddp_article2{
-
-}
-.color_lddp_article3{
-
-}
+/* la palette du gout */
 .color_lpdg_titre{
-    background-image: linear-gradient(100deg, #489b40,#beff7f);
+    background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    -webkit-text-fill-color: transparent;}
+.color_lpdg_article1{}.color_lpdg_article2{}.color_lpdg_article3{}
+.lpdg_h3_forme:before, .lpdg_h3_forme:after {background: linear-gradient(100deg, #489b40,#beff7f);}
 
-.color_lpdg_article1{
-
-}
-.color_lpdg_article2{
-
-}
-.color_lpdg_article3{
-    
-}

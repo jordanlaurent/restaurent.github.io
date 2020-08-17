@@ -192,12 +192,6 @@ footer {
   justify-content: space-between;
 }
 
-.prochainement {
-  text-align: center;
-  margin-left: 35%;
-  margin-right: 35%;
-}
-
 /* contenue page des cartes */
 nav {
   margin-top: 150px;
@@ -211,11 +205,36 @@ nav {
 .sectioncarte {
   margin-bottom: 5%;
   margin-top: 150px;
+  overflow: hidden;
+}
+
+/* page carte trait h3 */
+.lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme:before, .lcalf_h3_forme:after, .lddp_h3_forme:before, .lddp_h3_forme:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 13rem;
+  height: 5px;
+}
+
+.lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme:before, .lddp_h3_forme:before {
+  margin-right: 6%;
+  margin-left: 3%;
+}
+
+.lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme:after, .lddp_h3_forme:after {
+  margin-left: 6%;
 }
 
 /* page index */
 .gauche1, .gauche2 {
   margin-right: 40px;
+}
+
+.prochainement {
+  text-align: center;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 /* FLEXBOX */
@@ -289,12 +308,18 @@ header a, footer, footer a, .prochainement {
   color: #fcca46;
 }
 
+/* la note enchenter */
 .notemusique {
   background-image: linear-gradient(130deg, #ef495f, #f6916a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+.lne_h3_forme:before, .lne_h3_forme:after {
+  background-color: black;
+}
+
+/* le chic a la francaise */
 .color_lcalf_titre {
   background-image: linear-gradient(100deg, #d38140, #8f5bfe);
   -webkit-background-clip: text;
@@ -313,16 +338,26 @@ header a, footer, footer a, .prochainement {
   color: #7554ce;
 }
 
+.lcalf_h3_forme:before, .lcalf_h3_forme:after {
+  background: linear-gradient(100deg, blue, pink);
+}
+
+/* le delice des papilles */
 .color_lddp_titre {
   background-image: linear-gradient(100deg, #052add, #1a91fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+/* la palette du gout */
 .color_lpdg_titre {
   background-image: linear-gradient(100deg, #489b40, #beff7f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.lpdg_h3_forme:before, .lpdg_h3_forme:after {
+  background: linear-gradient(100deg, #489b40, #beff7f);
 }
 
 @media screen and (max-width: 1024px) {

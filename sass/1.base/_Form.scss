@@ -4,63 +4,63 @@
  body , html{
     padding: 0px;
     margin : 0px;
-    width  : 100%;
-    }
+    width  : 100%; }
 header, footer {
-    width: 100%;
-}
+    width: 100%;}
 header{
-    position: absolute;
+    position  : absolute;
     text-align: center;
-    top: 0;
-}
+    top       : 0;}
 footer{
-    bottom: 0;
-    position: relative;
-    justify-content: space-between;
-}
-.prochainement{
-    text-align      : center;
-    margin-left     : 35%;
-    margin-right    : 35%;
-}
+    bottom         : 0;
+    position       : relative;
+    justify-content: space-between;}
+
 
 /* contenue page des cartes */
 nav{
     margin-top: 150px;;
-    width: 100%;
-}
+    width     : 100%;}
 .contentmenu{
-    justify-content: center;
-}
+    justify-content: center;}
 
 .sectioncarte{
     margin-bottom: 5%;
-    margin-top: 150px;
-}
+    margin-top   : 150px;
+    overflow     : hidden;}
+
+/* page carte trait h3 */
+.lne_h3_forme:before, .lne_h3_forme:after ,.lpdg_h3_forme:before, .lpdg_h3_forme:after , .lcalf_h3_forme:before, .lcalf_h3_forme:after, .lddp_h3_forme:before, .lddp_h3_forme:after{ 
+    content       : ''; 
+    display       : inline-block; 
+    vertical-align: middle; 
+    width         : 13rem;
+    height        : 5px; }
+    .lne_h3_forme:before,.lpdg_h3_forme:before, .lcalf_h3_forme:before, .lddp_h3_forme:before{ margin-right: 6%; margin-left: 3%;}
+    .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme:after, .lddp_h3_forme:after{ margin-left: 6%; }
+
 
 /* page index */
 .gauche1, .gauche2{
-    margin-right: 40px;
-}
-
+    margin-right: 40px;}
+.prochainement{
+        text-align      : center;
+        margin-left     : 35%;
+        margin-right    : 35%;}
 /* FLEXBOX */
     footer ,.contentmenu{
-     display: flex; flex-direction: row; 
+     display        : flex; flex-direction: row; 
      justify-content: center;
-     width: 100%;
-     }
+     width          : 100%;}
     
      .articlecarte{
-        display: flex; flex-direction: row;
+        display        : flex; flex-direction: row;
         justify-content: space-between;
-        padding-left: 5%;
-        padding-right: 5%;
-    }
+        padding-left   : 5%;
+        padding-right  : 5%;}
 /* Button */
 
 .button1 {
     background-color: $colorheaderfooter;
-    border-radius: 10px;
-    padding: 10px;
-}
+    border-radius   : 10px;
+    padding         : 10px;}
