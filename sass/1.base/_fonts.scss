@@ -118,8 +118,9 @@ a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 >
 
 /* fonts page index */
 .gauche1 , .gauche2 , .droite1 , .droite2{
-    text-align : center;
-    line-height: 65px;}
+   text-align: center;
+    line-height: 65px;
+    white-space: nowrap;}
 
     /* fonts carte page individuelle */ 
 .lnefont , .lpdgfont, .lcalffont, .lddpfont{

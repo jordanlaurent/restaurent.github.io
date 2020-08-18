@@ -108,6 +108,7 @@ a, h1 a, .droite > li, .gauche1 > li, .gauche2 > li, .droite1 > li, .droite2 > l
 .gauche1, .gauche2, .droite1, .droite2 {
   text-align: center;
   line-height: 65px;
+  white-space: nowrap;
 }
 
 /* fonts carte page individuelle */
@@ -222,37 +223,18 @@ nav {
   width: 100%;
 }
 
-.contentmenu {
-  justify-content: center;
-}
-
 .sectioncarte {
   margin-bottom: 5%;
   margin-top: 150px;
   overflow: hidden;
 }
 
-/* page carte trait h3 */
-.lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 13rem;
-  height: 5px;
-}
-
-.lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
-  margin-right: 6%;
-  margin-left: 3%;
-}
-
-.lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
-  margin-left: 6%;
-}
-
 /* page index */
-.gauche1, .gauche2 {
-  margin-right: 40px;
+.gauche1, .gauche2, .droite1, .droite2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 60%;
+  padding-bottom: 60%;
 }
 
 .prochainement {
@@ -262,11 +244,17 @@ nav {
 }
 
 /* FLEXBOX */
-footer, .contentmenu {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+}
+
+.contentmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .articlecarte {
@@ -409,31 +397,97 @@ header a:hover {
 }
 
 @media screen and (max-width: 1024px) {
-  .lddpfont li, .lpdgfont li, .lcalffont li, .lnefont li {
-    font-size: 20px;
+  .lpdgfont li {
+    font-size: 1.2em;
     white-space: nowrap;
   }
 
-  h2.lnefont, h2.lcalffont, h2.lpdgfont, h2.lddpfont {
-    font-size: 45px;
+  h2.lpdgfont {
+    font-size: 2.6em;
+  }
+
+  h3.lpdgfont {
+    font-size: 2em;
+  }
+
+  .lcalffont li {
+    font-size: 0.6em;
     white-space: nowrap;
   }
 
-  h3.lnefont, h3.lcalffont, h3.lpdgfont, h3.lddpfont {
-    font-size: 25px;
+  h2.lcalffont {
+    font-size: 3em;
     white-space: nowrap;
+  }
+
+  h3.lcalffont {
+    font-size: 2.3em;
+  }
+
+  .lddpfont li {
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+
+  h2.lddpfont {
+    font-size: 3em;
+    white-space: nowrap;
+  }
+
+  h3.lddpfont {
+    font-size: 2em;
+  }
+
+  .lnefont li {
+    font-size: 1em;
+    white-space: nowrap;
+  }
+
+  h2.lnefont {
+    font-size: 4em;
+  }
+
+  h3.lnefont {
+    font-size: 2em;
+  }
+
+  .notemusiqueindex {
+    font-size: 3em;
   }
 
   header a {
-    font-size: 60px;
+    font-size: 3em;
   }
 
   footer {
-    font-size: 20px;
+    font-size: 2em;
   }
 
   .gauche1, .gauche2, .droite1, .droite2 {
-    font-size: 16px;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 220px;
+  }
+
+  .lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 2em;
+    height: 5px;
+  }
+
+  .lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
+    margin-right: 6%;
+    margin-left: 3%;
+  }
+
+  .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
+    margin-left: 6%;
+  }
+
+  .contentmenu li {
+    white-space: normal;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -462,11 +516,31 @@ header a:hover {
 
   .gauche1, .gauche2, .droite1, .droite2 {
     font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 340px;
   }
 
   .sectioncarte {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  .lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 13rem;
+    height: 5px;
+  }
+
+  .lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
+    margin-right: 6%;
+    margin-left: 3%;
+  }
+
+  .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
+    margin-left: 6%;
   }
 }
 .animationfooter:hover {
