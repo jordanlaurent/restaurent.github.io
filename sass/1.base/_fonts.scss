@@ -124,7 +124,8 @@ a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 >
 
     /* fonts carte page individuelle */ 
 .lnefont , .lpdgfont, .lcalffont, .lddpfont{
-    list-style: none;}
+    list-style: none;
+    line-height: 55px;}
 
 .lnefont li, {
 font-family: "Thyssen J";
