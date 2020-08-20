@@ -8,7 +8,14 @@
         border-radius: 10px;
         padding-left: 10px; padding-right: 10px;
     } 
-    
+    .gauche1:hover{transition: transform .4s;background-color: $color_gauche1_animated;overflow:hidden;}
+    .gauche2:hover{transition: transform .4s; background-color: $color_gauche2_animated;overflow:hidden;}
+    .droite1:hover{transition: transform .4s; background-color: $color_droite1_animated;overflow:hidden;}
+    .droite2:hover{transition: transform .4s; background-color: $color_droite2_animated;overflow:hidden;}
+    .effect_index_1:hover { 
+        transition: transform .2s;
+        transform: scale(1.5);
+        }
     @keyframes shake { 
         10%, 90% { 
         transform: translate3d(-1px, 0, 0); 

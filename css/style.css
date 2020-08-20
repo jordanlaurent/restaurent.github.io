@@ -588,6 +588,35 @@ header a:hover {
   padding-right: 10px;
 }
 
+.gauche1:hover {
+  transition: transform 0.4s;
+  background-color: #f8d3ce;
+  overflow: hidden;
+}
+
+.gauche2:hover {
+  transition: transform 0.4s;
+  background-color: #edfaed;
+  overflow: hidden;
+}
+
+.droite1:hover {
+  transition: transform 0.4s;
+  background-color: #fce1f9;
+  overflow: hidden;
+}
+
+.droite2:hover {
+  transition: transform 0.4s;
+  background-color: #e7f7e4;
+  overflow: hidden;
+}
+
+.effect_index_1:hover {
+  transition: transform 0.2s;
+  transform: scale(1.5);
+}
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
