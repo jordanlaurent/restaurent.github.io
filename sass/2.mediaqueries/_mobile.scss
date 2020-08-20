@@ -18,13 +18,5 @@
         width: 165px;
         min-height: 300px;
     }
-    .lne_h3_forme:before, .lne_h3_forme:after ,.lpdg_h3_forme:before, .lpdg_h3_forme:after , .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after,.lddp_h3_forme1:before, .lddp_h3_forme1:after,.lddp_h3_forme2:before, .lddp_h3_forme2:after ,.lddp_h3_forme3:before, .lddp_h3_forme3:after,.lcalf_h3_forme3:before, .lcalf_h3_forme3:after,{ 
-        content       : ''; 
-        display       : inline-block;
-        vertical-align: middle; 
-        height        : 2px; }
-        .lne_h3_forme:before,.lpdg_h3_forme:before, .lcalf_h3_forme1:before,, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before,.lddp_h3_forme2:before,.lddp_h3_forme3:before{ margin-right: 3%;width: 5%;}
-        .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after,.lcalf_h3_forme2:after,.lcalf_h3_forme3:after, .lddp_h3_forme1:after,.lddp_h3_forme2:after,.lddp_h3_forme3:after{ margin-left: 0%; width: 5%;}
-   
         .contentmenu li {white-space: normal;}
 }

@@ -1,6 +1,8 @@
 @import "_colors.scss";
 
-
+.lne_h3_forme:hover ,.lpdg_h3_forme:hover,.lcalf_h3_forme1:hover, .lcalf_h3_forme2:hover,.lcalf_h3_forme3:hover,.lddp_h3_forme1:hover,.lddp_h3_forme2:hover,.lddp_h3_forme3:hover{
+    text-decoration: underline;
+  }
 /* COLORS CONTENT */
 
 header, footer{background-color:$colorheaderfooter;}
@@ -30,31 +32,24 @@ header a:hover {color:#ffd700;}
     background-image       : linear-gradient(130deg, #ef495f,#f6916a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.lne_h3_forme:before, .lne_h3_forme:after ,{background-color:black;}
 
 /* le chic a la francaise */
 .color_lcalf_titre{
     background-image       : linear-gradient(100deg, #d38140,#8f5bfe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.color_lcalf_article1{color: $colorlcalf1;}.color_lcalf_article2{color: $colorlcalf2;}.color_lcalf_article3{color: $colorlcalf3;}
-.lcalf_h3_forme1:before, .lcalf_h3_forme1:after,{ background-color:$colorlcalf1;}
-.lcalf_h3_forme2:before, .lcalf_h3_forme2:after,{ background-color:$colorlcalf2;}
-.lcalf_h3_forme3:before, .lcalf_h3_forme3:after,{ background-color:$colorlcalf3;}
+.color_lcalf_article1{color: $colorlcalf1;}.color_lcalf_article2{color: $colorlcalf2;}.color_lcalf_article3{color: $colorlcalf3;} 
+
 /* le delice des papilles */
 .color_lddp_titre{
     background-image       : linear-gradient(100deg, #052add,#1a91fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.color_lddp_article1{}.color_lddp_article2{}.color_lddp_article3{}
-.lddp_h3_forme1:before, .lddp_h3_forme1:after{ background-color:$colorlddp1 ;}
-.lddp_h3_forme2:before, .lddp_h3_forme2:after{ background-color: $colorlddp2;}
-.lddp_h3_forme3:before, .lddp_h3_forme3:after{ background-color:$colorlddp3 ;}
-/* la palette du gout */
+    .lddp_h3_forme1:hover{text-decoration-color:$colorlddp1;}.lddp_h3_forme2:hover{text-decoration-color:$colorlddp2;}.lddp_h3_forme3:hover{text-decoration-color:$colorlddp3;}
+    /* la palette du gout */
 .color_lpdg_titre{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
-.color_lpdg_article1{}.color_lpdg_article2{}.color_lpdg_article3{}
-.lpdg_h3_forme:before, .lpdg_h3_forme:after {background: linear-gradient(100deg, #489b40,#beff7f);}
+    .lpdg_h3_forme:hover{text-decoration-color: $colorlpdg;}
 

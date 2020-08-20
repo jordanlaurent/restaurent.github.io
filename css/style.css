@@ -264,6 +264,10 @@ footer {
   padding: 10px;
 }
 
+.lne_h3_forme:hover, .lpdg_h3_forme:hover, .lcalf_h3_forme1:hover, .lcalf_h3_forme2:hover, .lcalf_h3_forme3:hover, .lddp_h3_forme1:hover, .lddp_h3_forme2:hover, .lddp_h3_forme3:hover {
+  text-decoration: underline;
+}
+
 /* COLORS CONTENT */
 header, footer {
   background-color: #579c87;
@@ -323,10 +327,6 @@ header a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.lne_h3_forme:before, .lne_h3_forme:after {
-  background-color: black;
-}
-
 /* le chic a la francaise */
 .color_lcalf_titre {
   background-image: linear-gradient(100deg, #d38140, #8f5bfe);
@@ -346,18 +346,6 @@ header a:hover {
   color: #7554ce;
 }
 
-.lcalf_h3_forme1:before, .lcalf_h3_forme1:after {
-  background-color: #c67412;
-}
-
-.lcalf_h3_forme2:before, .lcalf_h3_forme2:after {
-  background-color: #a56799;
-}
-
-.lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
-  background-color: #7554ce;
-}
-
 /* le delice des papilles */
 .color_lddp_titre {
   background-image: linear-gradient(100deg, #052add, #1a91fa);
@@ -365,16 +353,16 @@ header a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.lddp_h3_forme1:before, .lddp_h3_forme1:after {
-  background-color: #0e32de;
+.lddp_h3_forme1:hover {
+  text-decoration-color: #0e32de;
 }
 
-.lddp_h3_forme2:before, .lddp_h3_forme2:after {
-  background-color: #0b73f3;
+.lddp_h3_forme2:hover {
+  text-decoration-color: #0b73f3;
 }
 
-.lddp_h3_forme3:before, .lddp_h3_forme3:after {
-  background-color: #4eaff7;
+.lddp_h3_forme3:hover {
+  text-decoration-color: #4eaff7;
 }
 
 /* la palette du gout */
@@ -384,8 +372,8 @@ header a:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.lpdg_h3_forme:before, .lpdg_h3_forme:after {
-  background: linear-gradient(100deg, #489b40, #beff7f);
+.lpdg_h3_forme:hover {
+  text-decoration-color: #489b40;
 }
 
 @media screen and (max-width: 1024px) {
@@ -456,23 +444,6 @@ header a:hover {
     padding-bottom: 10%;
     width: 165px;
     min-height: 300px;
-  }
-
-  .lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 2px;
-  }
-
-  .lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
-    margin-right: 3%;
-    width: 5%;
-  }
-
-  .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
-    margin-left: 0%;
-    width: 5%;
   }
 
   .contentmenu li {
@@ -552,24 +523,6 @@ header a:hover {
   .sectioncarte {
     margin-left: 20%;
     margin-right: 20%;
-  }
-
-  .lne_h3_forme:before, .lne_h3_forme:after, .lpdg_h3_forme:before, .lpdg_h3_forme:after, .lcalf_h3_forme1:before, .lcalf_h3_forme1:after, .lcalf_h3_forme2:before, .lcalf_h3_forme2:after, .lddp_h3_forme1:before, .lddp_h3_forme1:after, .lddp_h3_forme2:before, .lddp_h3_forme2:after, .lddp_h3_forme3:before, .lddp_h3_forme3:after, .lcalf_h3_forme3:before, .lcalf_h3_forme3:after {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    height: 5px;
-  }
-
-  .lne_h3_forme:before, .lpdg_h3_forme:before, .lcalf_h3_forme1:before, .lcalf_h3_forme2:before, .lcalf_h3_forme3:before, .lddp_h3_forme1:before, .lddp_h3_forme2:before, .lddp_h3_forme3:before {
-    margin-right: 6%;
-    margin-left: 3%;
-    width: 15%;
-  }
-
-  .lne_h3_forme:after, .lpdg_h3_forme:after, .lcalf_h3_forme1:after, .lcalf_h3_forme2:after, .lcalf_h3_forme3:after, .lddp_h3_forme1:after, .lddp_h3_forme2:after, .lddp_h3_forme3:after {
-    margin-left: 6%;
-    width: 15%;
   }
 
   .contentmenu li {
