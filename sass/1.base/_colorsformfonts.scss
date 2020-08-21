@@ -1,55 +1,72 @@
 @import "_colors.scss";
 
-.lne_h3_forme:hover ,.lpdg_h3_forme:hover,.lcalf_h3_forme1:hover, .lcalf_h3_forme2:hover,.lcalf_h3_forme3:hover,.lddp_h3_forme1:hover,.lddp_h3_forme2:hover,.lddp_h3_forme3:hover{
-    text-decoration: underline;
-  }
+
 /* COLORS CONTENT */
 
 header, footer{background-color:$colorheaderfooter;}
 
 /* couleur de fonds carte page individuelle */
-.sectionlne{background-color: $colorsectionlne;}
-.sectionlpdg{background-color: $colorindexlpdg;}
-.sectionlcalf{background-color: $colorindexlcalf;}
-.sectionlddp{background-color: $colorindexlddp ;}
+.color_carte_lne{background-color: $color_carte_lne;}
+.color_carte_lpdg{background-color: $color_carte_lpdg;}
+.color_carte_lcalf{background-color: $color_carte_lcalf;}
+.color_carte_lddp{background-color: $color_carte_lddp ;}
 
-/* page index */
-.gauche1 , .gauche2 , .droite1 , .droite2 {
-box-shadow: 0px 0px 10px #000000;
+
+#lanotenechente  {
+    background-color:$color_carte_lne ;
 }
-.gauche1{background-color: $colorindexlne;}
-.gauche2{background-color: $colorindexlddp;}
-.droite1{background-color:$colorindexlcalf;}
-.droite2{background-color: $colorindexlpdg;}
+#lapalettedugout {
+    background-color:$color_carte_lpdg ;
+}
+#lechicalafrancaise{
+    background-color: $color_carte_lcalf;
+}
 
+#ledelicedespapilles{
+    background-color: $color_carte_lddp ;
+    
+}
 /* COLORS FONTS */
 
 header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
 header a:hover {color:#ffd700;}
 
 /* la note enchenter */
-.notemusique{
+.notemusique {
     background-image       : linear-gradient(130deg, #ef495f,#f6916a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 
+.hr_lne_left , .hr_lne_right{
+    background-color:#000000 ;
+}
 /* le chic a la francaise */
-.color_lcalf_titre{
+.color_lcalf_titre, #lechicalafrancaise a p{
     background-image       : linear-gradient(100deg, #d38140,#8f5bfe);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 .color_lcalf_article1{color: $colorlcalf1;}.color_lcalf_article2{color: $colorlcalf2;}.color_lcalf_article3{color: $colorlcalf3;} 
-
+.hr_lcalf_right1,.hr_lcalf_left1{background-color:$colorlcalf1 ;}
+.hr_lcalf_right2,.hr_lcalf_left2{background-color:$colorlcalf2 ;}
+.hr_lcalf_right3,.hr_lcalf_left3{background-color:$colorlcalf3 ;}
 /* le delice des papilles */
-.color_lddp_titre{
+.color_lddp_titre,#ledelicedespapilles{
     background-image       : linear-gradient(100deg, #052add,#1a91fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
     .lddp_h3_forme1:hover{text-decoration-color:$colorlddp1;}.lddp_h3_forme2:hover{text-decoration-color:$colorlddp2;}.lddp_h3_forme3:hover{text-decoration-color:$colorlddp3;}
+.hr_lddp_left1,.hr_lddp_right1{background-color:$colorlddp1;}
+.hr_lddp_left2,.hr_lddp_right2{background-color:$colorlddp2;}
+.hr_lddp_left3,.hr_lddp_right3{background-color:$colorlddp3;}
     /* la palette du gout */
-.color_lpdg_titre{
+.color_lpdg_titre, #lapalettedugout{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
     .lpdg_h3_forme:hover{text-decoration-color: $colorlpdg;}
-
+.hr_lpdg_left{
+    background-image       : linear-gradient(100deg, #489b40,#beff7f);
+}
+.hr_lpdg_right{
+    background-image       : linear-gradient(100deg, #beff7f,#489b40);
+}

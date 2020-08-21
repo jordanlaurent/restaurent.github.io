@@ -10,13 +10,21 @@
     footer{
         font-size: 1.5em;
     }
-    .gauche1 , .gauche2 , .droite1 , .droite2{
-        padding-left:1%;
-        padding-right:1%;
-        padding-top: 50%;
-        padding-bottom: 10%;
-        width: 165px;
-        min-height: 300px;
+    #index_carte_display{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        flex-wrap: wrap;
+        justify-content: center;
+    
     }
-        .contentmenu li {white-space: normal;}
+    .card_menu{
+        display: block;
+        margin-bottom: 5%;
+        box-shadow: 10px 1px 10px 1px #888888;
+        padding-top:30%;
+        padding-bottom: 30%;
+        margin-right: 10%;
+
+    }
 }

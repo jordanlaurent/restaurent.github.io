@@ -109,18 +109,18 @@
     font-display: swap;
 }
 
-header a{font-family: "Embrionic55";}
-
-a, h1 a , .droite > li, .gauche1 > li , .gauche2 > li, .droite1 > li, .droite2 > li, footer > ul > li, footer > ul > a >li{
+header a{font-family: "Embrionic55";
+text-decoration: none;}
+footer a{
     text-decoration: none;
     list-style: none;
-     }
-
-/* fonts page index */
-.gauche1 , .gauche2 , .droite1 , .droite2{
-   text-align: center;
-    white-space: nowrap;}
-
+}
+#index_carte_display a{
+    text-decoration: none;
+}
+#index_carte_display{
+    list-style: none;
+}
     /* fonts carte page individuelle */ 
 .lnefont , .lpdgfont, .lcalffont, .lddpfont{
     list-style: none;

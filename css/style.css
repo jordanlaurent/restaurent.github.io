@@ -97,17 +97,20 @@
 }
 header a {
   font-family: "Embrionic55";
+  text-decoration: none;
 }
 
-a, h1 a, .droite > li, .gauche1 > li, .gauche2 > li, .droite1 > li, .droite2 > li, footer > ul > li, footer > ul > a > li {
+footer a {
   text-decoration: none;
   list-style: none;
 }
 
-/* fonts page index */
-.gauche1, .gauche2, .droite1, .droite2 {
-  text-align: center;
-  white-space: nowrap;
+#index_carte_display a {
+  text-decoration: none;
+}
+
+#index_carte_display {
+  list-style: none;
 }
 
 /* fonts carte page individuelle */
@@ -218,14 +221,32 @@ footer {
 }
 
 /* contenue page des cartes */
-nav {
+.carte_display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.body_carte_display {
   margin-top: 150px;
 }
 
-.sectioncarte {
-  margin-bottom: 5%;
-  margin-top: 150px;
-  overflow: hidden;
+/* HR gauche droite aux niveaux des inter-titres dans les cartes */
+.hr_lne_left, .hr_lpdg_left, .hr_lcalf_left1, .hr_lcalf_left2, .hr_lcalf_left3, .hr_lddp_left1, .hr_lddp_left2, .hr_lddp_left3 {
+  height: 5px;
+  width: 10%;
+  position: absolute;
+  left: 0;
+}
+
+.hr_lne_right, .hr_lpdg_right, .hr_lcalf_right1, .hr_lcalf_right2, .hr_lcalf_right3, .hr_lddp_right1, .hr_lddp_right2, .hr_lddp_right3 {
+  height: 5px;
+  width: 10%;
+  position: absolute;
+  right: 0;
+  margin-top: -35px;
 }
 
 /* page index */
@@ -235,26 +256,12 @@ nav {
   margin-right: 35%;
 }
 
-/* FLEXBOX */
+/* Footer */
 footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
-}
-
-.contentmenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.articlecarte {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 /* Button */
@@ -264,51 +271,42 @@ footer {
   padding: 10px;
 }
 
-.lne_h3_forme:hover, .lpdg_h3_forme:hover, .lcalf_h3_forme1:hover, .lcalf_h3_forme2:hover, .lcalf_h3_forme3:hover, .lddp_h3_forme1:hover, .lddp_h3_forme2:hover, .lddp_h3_forme3:hover {
-  text-decoration: underline;
-}
-
 /* COLORS CONTENT */
 header, footer {
   background-color: #579c87;
 }
 
 /* couleur de fonds carte page individuelle */
-.sectionlne {
+.color_carte_lne {
   background-color: #fcdfdb;
 }
 
-.sectionlpdg {
+.color_carte_lpdg {
   background-color: #fdfffd;
 }
 
-.sectionlcalf {
+.color_carte_lcalf {
   background-color: #fff5fe;
 }
 
-.sectionlddp {
+.color_carte_lddp {
   background-color: #f9f9f9;
 }
 
-/* page index */
-.gauche1, .gauche2, .droite1, .droite2 {
-  box-shadow: 0px 0px 10px #000000;
-}
-
-.gauche1 {
+#lanotenechente {
   background-color: #fcdfdb;
 }
 
-.gauche2 {
-  background-color: #f9f9f9;
+#lapalettedugout {
+  background-color: #fdfffd;
 }
 
-.droite1 {
+#lechicalafrancaise {
   background-color: #fff5fe;
 }
 
-.droite2 {
-  background-color: #fdfffd;
+#ledelicedespapilles {
+  background-color: #f9f9f9;
 }
 
 /* COLORS FONTS */
@@ -327,8 +325,12 @@ header a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+.hr_lne_left, .hr_lne_right {
+  background-color: #000000;
+}
+
 /* le chic a la francaise */
-.color_lcalf_titre {
+.color_lcalf_titre, #lechicalafrancaise a p {
   background-image: linear-gradient(100deg, #d38140, #8f5bfe);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -346,8 +348,20 @@ header a:hover {
   color: #7554ce;
 }
 
+.hr_lcalf_right1, .hr_lcalf_left1 {
+  background-color: #c67412;
+}
+
+.hr_lcalf_right2, .hr_lcalf_left2 {
+  background-color: #a56799;
+}
+
+.hr_lcalf_right3, .hr_lcalf_left3 {
+  background-color: #7554ce;
+}
+
 /* le delice des papilles */
-.color_lddp_titre {
+.color_lddp_titre, #ledelicedespapilles {
   background-image: linear-gradient(100deg, #052add, #1a91fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -365,8 +379,20 @@ header a:hover {
   text-decoration-color: #4eaff7;
 }
 
+.hr_lddp_left1, .hr_lddp_right1 {
+  background-color: #0e32de;
+}
+
+.hr_lddp_left2, .hr_lddp_right2 {
+  background-color: #0b73f3;
+}
+
+.hr_lddp_left3, .hr_lddp_right3 {
+  background-color: #4eaff7;
+}
+
 /* la palette du gout */
-.color_lpdg_titre {
+.color_lpdg_titre, #lapalettedugout {
   background-image: linear-gradient(100deg, #489b40, #beff7f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -374,6 +400,14 @@ header a:hover {
 
 .lpdg_h3_forme:hover {
   text-decoration-color: #489b40;
+}
+
+.hr_lpdg_left {
+  background-image: linear-gradient(100deg, #489b40, #beff7f);
+}
+
+.hr_lpdg_right {
+  background-image: linear-gradient(100deg, #beff7f, #489b40);
 }
 
 @media screen and (max-width: 1024px) {
@@ -437,17 +471,21 @@ header a:hover {
     font-size: 1.5em;
   }
 
-  .gauche1, .gauche2, .droite1, .droite2 {
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 50%;
-    padding-bottom: 10%;
-    width: 165px;
-    min-height: 300px;
+  #index_carte_display {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .contentmenu li {
-    white-space: normal;
+  .card_menu {
+    display: block;
+    margin-bottom: 5%;
+    box-shadow: 10px 1px 10px 1px #888888;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    margin-right: 10%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -511,22 +549,23 @@ header a:hover {
     font-size: 20px;
   }
 
-  .gauche1, .gauche2, .droite1, .droite2 {
-    width: 265px;
-    min-height: 360px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 50%;
+  #index_carte_display {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .card_menu {
+    display: block;
+    margin-bottom: 5%;
+    box-shadow: 10px 1px 10px 1px #888888;
+    width: 30%;
+    padding-top: 10%;
     padding-bottom: 10%;
-  }
-
-  .sectioncarte {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-
-  .contentmenu li {
-    white-space: normal;
+    margin: 2%;
   }
 }
 .animationfooter:hover {
@@ -541,33 +580,28 @@ header a:hover {
   padding-right: 10px;
 }
 
-.gauche1:hover {
+#lanotenechente:hover {
   transition: transform 0.4s;
   background-color: #f8d3ce;
   overflow: hidden;
 }
 
-.gauche2:hover {
-  transition: transform 0.4s;
-  background-color: #edfaed;
-  overflow: hidden;
-}
-
-.droite1:hover {
+#lechicalafrancaise:hover {
   transition: transform 0.4s;
   background-color: #fce1f9;
   overflow: hidden;
 }
 
-.droite2:hover {
+#ledelicedespapilles:hover {
   transition: transform 0.4s;
   background-color: #e7f7e4;
   overflow: hidden;
 }
 
-.effect_index_1:hover {
-  transition: transform 0.2s;
-  transform: scale(1.5);
+#lapalettedugout:hover {
+  transition: transform 0.4s;
+  background-color: #edfaed;
+  overflow: hidden;
 }
 
 @keyframes shake {
@@ -607,13 +641,10 @@ header a:hover {
     content: "";
   }
 }
-.lne_h3_forme:before, .lne_h3_forme:after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  background-color: blue;
-  height: 8px;
-  width: 20%;
+/* en attente */
+.effect_index_zoom:hover {
+  transition: transform 0.2s;
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,14 +9,11 @@
         border-radius: 10px;
         padding-left: 10px; padding-right: 10px;
     } 
-    .gauche1:hover{transition: transform .4s;background-color: $color_gauche1_animated;overflow:hidden;}
-    .gauche2:hover{transition: transform .4s; background-color: $color_gauche2_animated;overflow:hidden;}
-    .droite1:hover{transition: transform .4s; background-color: $color_droite1_animated;overflow:hidden;}
-    .droite2:hover{transition: transform .4s; background-color: $color_droite2_animated;overflow:hidden;}
-    .effect_index_1:hover { 
-        transition: transform .2s;
-        transform: scale(1.5);
-        }
+    #lanotenechente:hover{transition: transform .4s;background-color: $color_carte_transparence_lne;overflow:hidden;}
+    #lechicalafrancaise:hover{transition: transform .4s; background-color: $color_carte_transparence_lcalf;overflow:hidden;}
+    #ledelicedespapilles:hover{transition: transform .4s; background-color: $color_carte_transparence_lddp;overflow:hidden;}
+    #lapalettedugout:hover{transition: transform .4s; background-color: $color_carte_transparence_lpdg;overflow:hidden;}
+
     @keyframes shake { 
         10%, 90% { 
         transform: translate3d(-1px, 0, 0); 
@@ -46,13 +43,10 @@
             75%  { content: '...'; }
             100% { content: ''; }
         }
-        
-.lne_h3_forme:before , .lne_h3_forme:after{
-        content: "";
-        display:inline-block; 
-        vertical-align: middle;
-        background-color: blue;
-         height: 8px;
-         width: 20%;}
+    
 
-        
+/* en attente */
+    .effect_index_zoom:hover { 
+        transition: transform .2s;
+        transform: scale(1.5);
+        }
