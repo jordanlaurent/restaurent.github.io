@@ -47,5 +47,12 @@
             100% { content: ''; }
         }
         
+.lne_h3_forme:before , .lne_h3_forme:after{
+        content: "";
+        display:inline-block; 
+        vertical-align: middle;
+        background-color: blue;
+         height: 8px;
+         width: 20%;}
 
         
