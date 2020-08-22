@@ -29,7 +29,7 @@ header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
 header a:hover {color:#ffd700;}
 
 /* la note enchenter */
-.notemusique {
+.notemusique, #lanotenechente a p{
     background-image       : linear-gradient(130deg, #ef495f,#f6916a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}

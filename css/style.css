@@ -313,7 +313,7 @@ header a:hover {
 }
 
 /* la note enchenter */
-.notemusique {
+.notemusique, #lanotenechente a p {
   background-image: linear-gradient(130deg, #ef495f, #f6916a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -453,10 +453,6 @@ header a:hover {
     font-size: 2em;
   }
 
-  .notemusiqueindex {
-    font-size: 3em;
-  }
-
   header a {
     font-size: 2em;
   }
@@ -533,10 +529,6 @@ header a:hover {
     font-size: 2em;
   }
 
-  .notemusiqueindex {
-    font-size: 2em;
-  }
-
   header a {
     font-size: 100px;
   }
@@ -577,7 +569,7 @@ header a:hover {
 }
 
 #lanotenechente:hover {
-  background-color: #fcdfdb;
+  background-color: rgba(248, 211, 206, 0.2);
 }
 
 #lanotenechente a p:hover {
@@ -585,7 +577,7 @@ header a:hover {
 }
 
 #lechicalafrancaise:hover {
-  background-color: #9e4e6fea;
+  background-color: rgba(119, 50, 79, 0.2);
 }
 
 #lechicalafrancaise a p:hover {
@@ -593,7 +585,7 @@ header a:hover {
 }
 
 #ledelicedespapilles:hover {
-  background-color: #365691e3;
+  background-color: rgba(45, 73, 126, 0.2);
 }
 
 #ledelicedespapilles a p:hover {
@@ -601,7 +593,7 @@ header a:hover {
 }
 
 #lapalettedugout:hover {
-  background-color: #45944d;
+  background-color: rgba(52, 117, 58, 0.2);
 }
 
 #lapalettedugout a p:hover {
