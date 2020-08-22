@@ -477,8 +477,9 @@ header a:hover {
     display: block;
     margin-bottom: 5%;
     box-shadow: 10px 1px 10px 1px #888888;
-    padding-top: 30%;
     padding-bottom: 30%;
+    padding-top: 30%;
+    height: 280px;
     margin-right: 10%;
     border-radius: 10px;
   }
@@ -554,11 +555,11 @@ header a:hover {
 
   .card_menu {
     display: block;
-    margin-bottom: 5%;
     box-shadow: 10px 1px 10px 1px #888888;
     width: 30%;
-    padding-top: 10%;
+    height: 280px;
     padding-bottom: 10%;
+    padding-top: 10%;
     margin: 2%;
     border-radius: 10px;
   }
@@ -576,43 +577,35 @@ header a:hover {
 }
 
 #lanotenechente:hover {
-  transition: transform 0.4s;
   background-color: #fcdfdb;
-  overflow: hidden;
 }
 
 #lanotenechente a p:hover {
-  font-size: 190%;
+  font-size: 280%;
 }
 
 #lechicalafrancaise:hover {
-  transition: transform 0.4s;
   background-color: #9e4e6fea;
-  overflow: hidden;
 }
 
 #lechicalafrancaise a p:hover {
-  font-size: 350%;
+  font-size: 500%;
 }
 
 #ledelicedespapilles:hover {
-  transition: transform 0.4s;
   background-color: #365691e3;
-  overflow: hidden;
 }
 
 #ledelicedespapilles a p:hover {
-  font-size: 250%;
+  font-size: 380%;
 }
 
 #lapalettedugout:hover {
-  transition: transform 0.4s;
   background-color: #45944d;
-  overflow: hidden;
 }
 
 #lapalettedugout a p:hover {
-  font-size: 250%;
+  font-size: 380%;
 }
 
 @keyframes shake {

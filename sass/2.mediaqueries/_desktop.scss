@@ -15,17 +15,15 @@
         flex-direction: row;
         margin-top: 150px;
         flex-wrap: wrap;
-        
         justify-content: center;
-    
     }
     .card_menu{
         display: block;
-        margin-bottom: 5%;
         box-shadow: 10px 1px 10px 1px #888888;
         width: 30%;  
-        padding-top:10%;
+        height: 280px;
         padding-bottom: 10%;
+        padding-top: 10%;
         margin:2%;
         border-radius: 10px;
     }
