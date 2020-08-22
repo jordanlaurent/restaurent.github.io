@@ -16,7 +16,12 @@ footer{
     position       : relative;
     justify-content: space-between;}
 
-
+    .body_mentionlegales_display{
+        padding-right: 15%;
+        padding-left: 15%;
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
 /* contenue page des cartes */
 .carte_display{
     display: flex;
@@ -26,18 +31,18 @@ footer{
     padding-left: 5%
 }
 .body_carte_display{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 /* HR gauche droite aux niveaux des inter-titres dans les cartes */
 .hr_lne_left,.hr_lpdg_left,.hr_lcalf_left1,.hr_lcalf_left2,.hr_lcalf_left3,.hr_lddp_left1,.hr_lddp_left2,.hr_lddp_left3{
      height: 5px;
-     width: 10%;
+     width: 8%;
     position:absolute;
 left: 0;
 }
 .hr_lne_right,.hr_lpdg_right,.hr_lcalf_right1,.hr_lcalf_right2,.hr_lcalf_right3,.hr_lddp_right1,.hr_lddp_right2,.hr_lddp_right3{
      height: 5px;
-     width: 10%;
+     width: 8%;
      position:absolute;
      right: 0;
      margin-top: -35px;
@@ -53,8 +58,7 @@ left: 0;
 /* Footer */
     footer ,{
      display        : flex; flex-direction: row; 
-     justify-content: center;
-     width          : 100%;}
+     justify-content: center;}
 
 /* Button */
 .button1 {

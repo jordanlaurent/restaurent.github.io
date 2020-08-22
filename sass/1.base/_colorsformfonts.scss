@@ -7,16 +7,13 @@ header, footer{background-color:$colorheaderfooter;}
 
 /* couleur de fonds carte page individuelle */
 .color_carte_lne{background-color: $color_carte_lne;}
-.color_carte_lpdg{background-color: $color_carte_lpdg;}
-.color_carte_lcalf{background-color: $color_carte_lcalf;}
-.color_carte_lddp{background-color: $color_carte_lddp ;}
 
 
 #lanotenechente  {
     background-color:$color_carte_lne ;
 }
 #lapalettedugout {
-    background-color:$color_carte_lpdg ;
+    background-color:$color_carte_lpdg;
 }
 #lechicalafrancaise{
     background-color: $color_carte_lcalf;
@@ -50,7 +47,7 @@ header a:hover {color:#ffd700;}
 .hr_lcalf_right2,.hr_lcalf_left2{background-color:$colorlcalf2 ;}
 .hr_lcalf_right3,.hr_lcalf_left3{background-color:$colorlcalf3 ;}
 /* le delice des papilles */
-.color_lddp_titre,#ledelicedespapilles{
+.color_lddp_titre,#ledelicedespapilles a p{
     background-image       : linear-gradient(100deg, #052add,#1a91fa);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
@@ -59,7 +56,7 @@ header a:hover {color:#ffd700;}
 .hr_lddp_left2,.hr_lddp_right2{background-color:$colorlddp2;}
 .hr_lddp_left3,.hr_lddp_right3{background-color:$colorlddp3;}
     /* la palette du gout */
-.color_lpdg_titre, #lapalettedugout{
+.color_lpdg_titre, #lapalettedugout a p{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}

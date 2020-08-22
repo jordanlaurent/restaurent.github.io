@@ -10,10 +10,13 @@
         padding-left: 10px; padding-right: 10px;
     } 
     #lanotenechente:hover{transition: transform .4s;background-color: $color_carte_transparence_lne;overflow:hidden;}
+    #lanotenechente a p:hover{font-size: 190%;}
     #lechicalafrancaise:hover{transition: transform .4s; background-color: $color_carte_transparence_lcalf;overflow:hidden;}
+    #lechicalafrancaise a p:hover {font-size:350%;}
     #ledelicedespapilles:hover{transition: transform .4s; background-color: $color_carte_transparence_lddp;overflow:hidden;}
+    #ledelicedespapilles a p:hover{font-size: 250%;}
     #lapalettedugout:hover{transition: transform .4s; background-color: $color_carte_transparence_lpdg;overflow:hidden;}
-
+    #lapalettedugout a p:hover{font-size: 250%;}
     @keyframes shake { 
         10%, 90% { 
         transform: translate3d(-1px, 0, 0); 

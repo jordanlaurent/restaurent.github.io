@@ -220,6 +220,13 @@ footer {
   justify-content: space-between;
 }
 
+.body_mentionlegales_display {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
 /* contenue page des cartes */
 .carte_display {
   display: flex;
@@ -230,20 +237,20 @@ footer {
 }
 
 .body_carte_display {
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 /* HR gauche droite aux niveaux des inter-titres dans les cartes */
 .hr_lne_left, .hr_lpdg_left, .hr_lcalf_left1, .hr_lcalf_left2, .hr_lcalf_left3, .hr_lddp_left1, .hr_lddp_left2, .hr_lddp_left3 {
   height: 5px;
-  width: 10%;
+  width: 8%;
   position: absolute;
   left: 0;
 }
 
 .hr_lne_right, .hr_lpdg_right, .hr_lcalf_right1, .hr_lcalf_right2, .hr_lcalf_right3, .hr_lddp_right1, .hr_lddp_right2, .hr_lddp_right3 {
   height: 5px;
-  width: 10%;
+  width: 8%;
   position: absolute;
   right: 0;
   margin-top: -35px;
@@ -261,7 +268,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
 }
 
 /* Button */
@@ -278,35 +284,23 @@ header, footer {
 
 /* couleur de fonds carte page individuelle */
 .color_carte_lne {
-  background-color: #fcdfdb;
-}
-
-.color_carte_lpdg {
-  background-color: #fdfffd;
-}
-
-.color_carte_lcalf {
-  background-color: #fff5fe;
-}
-
-.color_carte_lddp {
-  background-color: #f9f9f9;
+  background-color: #f8d3ce;
 }
 
 #lanotenechente {
-  background-color: #fcdfdb;
+  background-color: #f8d3ce;
 }
 
 #lapalettedugout {
-  background-color: #fdfffd;
+  background-color: #34753a;
 }
 
 #lechicalafrancaise {
-  background-color: #fff5fe;
+  background-color: #77324f;
 }
 
 #ledelicedespapilles {
-  background-color: #f9f9f9;
+  background-color: #2d497e;
 }
 
 /* COLORS FONTS */
@@ -361,7 +355,7 @@ header a:hover {
 }
 
 /* le delice des papilles */
-.color_lddp_titre, #ledelicedespapilles {
+.color_lddp_titre, #ledelicedespapilles a p {
   background-image: linear-gradient(100deg, #052add, #1a91fa);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -392,7 +386,7 @@ header a:hover {
 }
 
 /* la palette du gout */
-.color_lpdg_titre, #lapalettedugout {
+.color_lpdg_titre, #lapalettedugout a p {
   background-image: linear-gradient(100deg, #489b40, #beff7f);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -486,6 +480,7 @@ header a:hover {
     padding-top: 30%;
     padding-bottom: 30%;
     margin-right: 10%;
+    border-radius: 10px;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -554,7 +549,6 @@ header a:hover {
     flex-direction: row;
     margin-top: 150px;
     flex-wrap: wrap;
-    width: 100%;
     justify-content: center;
   }
 
@@ -566,6 +560,7 @@ header a:hover {
     padding-top: 10%;
     padding-bottom: 10%;
     margin: 2%;
+    border-radius: 10px;
   }
 }
 .animationfooter:hover {
@@ -582,26 +577,42 @@ header a:hover {
 
 #lanotenechente:hover {
   transition: transform 0.4s;
-  background-color: #f8d3ce;
+  background-color: #fcdfdb;
   overflow: hidden;
+}
+
+#lanotenechente a p:hover {
+  font-size: 190%;
 }
 
 #lechicalafrancaise:hover {
   transition: transform 0.4s;
-  background-color: #fce1f9;
+  background-color: #9e4e6fea;
   overflow: hidden;
+}
+
+#lechicalafrancaise a p:hover {
+  font-size: 350%;
 }
 
 #ledelicedespapilles:hover {
   transition: transform 0.4s;
-  background-color: #e7f7e4;
+  background-color: #365691e3;
   overflow: hidden;
+}
+
+#ledelicedespapilles a p:hover {
+  font-size: 250%;
 }
 
 #lapalettedugout:hover {
   transition: transform 0.4s;
-  background-color: #edfaed;
+  background-color: #45944d;
   overflow: hidden;
+}
+
+#lapalettedugout a p:hover {
+  font-size: 250%;
 }
 
 @keyframes shake {
