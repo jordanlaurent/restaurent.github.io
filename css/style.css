@@ -214,12 +214,6 @@ header {
   top: 0;
 }
 
-footer {
-  bottom: 0;
-  position: relative;
-  justify-content: space-between;
-}
-
 .body_mentionlegales_display {
   padding-right: 15%;
   padding-left: 15%;
@@ -264,10 +258,24 @@ footer {
 }
 
 /* Footer */
-footer {
+#footer_display {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-top: 20px;
+}
+
+footer {
+  bottom: 0;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+footer ul a {
+  display: block;
+  padding: 10px;
 }
 
 /* Button */
