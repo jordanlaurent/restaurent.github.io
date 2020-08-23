@@ -479,18 +479,14 @@ header a:hover {
   #index_carte_display {
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
-    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 150px;
   }
 
   .card_menu {
     display: block;
     margin-bottom: 5%;
     box-shadow: 10px 1px 10px 1px #888888;
-    padding-bottom: 30%;
-    padding-top: 30%;
-    height: 280px;
     margin-right: 10%;
     border-radius: 10px;
   }
