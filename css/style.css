@@ -299,23 +299,23 @@ header, footer {
 
 /* couleur de fonds carte page individuelle */
 .color_carte_lne {
-  background-color: #f8d3ce;
+  background-color: #fcdfdb;
 }
 
 #lanotenechente {
-  background-color: #f8d3ce;
+  background-color: #fcdfdb;
 }
 
 #lapalettedugout {
-  background-color: #34753a;
+  background-color: #fdfffd;
 }
 
 #lechicalafrancaise {
-  background-color: #77324f;
+  background-color: #fff5fe;
 }
 
 #ledelicedespapilles {
-  background-color: #2d497e;
+  background-color: #f9f9f9;
 }
 
 /* COLORS FONTS */
@@ -559,7 +559,7 @@ header a:hover {
   .card_menu {
     display: block;
     box-shadow: 10px 1px 10px 1px #888888;
-    width: 40%;
+    width: 30%;
     margin: 2%;
     border-radius: 10px;
   }
@@ -577,7 +577,7 @@ header a:hover {
 }
 
 #lanotenechente:hover {
-  background-color: rgba(248, 211, 206, 0.2);
+  background-color: rgba(241, 245, 241, 0);
 }
 
 #lanotenechente a p:hover {
@@ -585,7 +585,7 @@ header a:hover {
 }
 
 #lechicalafrancaise:hover {
-  background-color: rgba(119, 50, 79, 0.2);
+  background-color: rgba(241, 245, 241, 0);
 }
 
 #lechicalafrancaise a p:hover {
@@ -593,7 +593,7 @@ header a:hover {
 }
 
 #ledelicedespapilles:hover {
-  background-color: rgba(45, 73, 126, 0.2);
+  background-color: rgba(241, 245, 241, 0);
 }
 
 #ledelicedespapilles a p:hover {
@@ -601,7 +601,7 @@ header a:hover {
 }
 
 #lapalettedugout:hover {
-  background-color: rgba(52, 117, 58, 0.2);
+  background-color: rgba(241, 245, 241, 0);
 }
 
 #lapalettedugout a p:hover {
