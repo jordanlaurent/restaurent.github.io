@@ -1,22 +1,22 @@
 
     .animationfooter:hover { 
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both; 
-        transform: translate3d(0, 0, 0); 
+        animation          : shake 0.82s cubic-bezier(.36,.07,.19,.97) both; 
+        transform          : translate3d(0, 0, 0); 
         backface-visibility: hidden; 
-        perspective: 1000px; 
-        font-size: 120%;
-        background-color: #6bc9ad;
-        border-radius: 10px;
-        padding-left: 10px; padding-right: 10px;
+        perspective        : 1000px; 
+        font-size          : 120%;
+        background-color   : #6bc9ad;
+        border-radius      : 10px;
+        padding-left       : 10px; padding-right: 10px;
     } 
-    #lanotenechente:hover{background-color:rgba(248, 211, 206,0.2);}
-    #lanotenechente a p:hover{font-size: 280%;}
-    #lechicalafrancaise:hover{ background-color:rgba(119, 50, 79,0.2);}
-    #lechicalafrancaise a p:hover{font-size: 500%;}
-    #ledelicedespapilles:hover{background-color: rgba(45, 73, 126,0.2);}
-    #ledelicedespapilles a p:hover{font-size: 380%;}
-    #lapalettedugout:hover{background-color: rgba(52, 117, 58,0.2);}
-    #lapalettedugout a p:hover{font-size: 380%;}
+    #lanotenechente:hover{background-color : rgba(248, 211, 206,0.2);}
+    #lanotenechente a p:hover{font-size        : 280%;}
+    #lechicalafrancaise:hover{ background-color: rgba(119, 50, 79,0.2);}
+    #lechicalafrancaise a p:hover{font-size        : 500%;}
+    #ledelicedespapilles:hover{background-color : rgba(45, 73, 126,0.2);}
+    #ledelicedespapilles a p:hover{font-size        : 380%;}
+    #lapalettedugout:hover{background-color : rgba(52, 117, 58,0.2);}
+    #lapalettedugout a p:hover{font-size        : 380%;}
     @keyframes shake { 
         10%, 90% { 
         transform: translate3d(-1px, 0, 0); 
@@ -35,9 +35,9 @@
         } } 
       
       .prochainement:after {  
-        animation: dotty steps(1,end) 2s infinite;
+        animation   : dotty steps(1,end) 2s infinite;
         padding-left: 10px;
-        content: '';}
+        content     : '';}
        
         @keyframes dotty {
             0%   { content: ''; }
@@ -50,6 +50,6 @@
 /* en attente */
     .effect_index_zoom:hover { 
         transition: transform .2s;
-        transform: scale(1.5);
+        transform : scale(1.5);
         }
 
