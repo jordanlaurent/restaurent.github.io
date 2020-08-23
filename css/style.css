@@ -257,6 +257,13 @@ header {
   margin-right: 35%;
 }
 
+section ul a {
+  display: block;
+  padding-top: 30%;
+  padding-bottom: 30%;
+  height: 280px;
+}
+
 /* Footer */
 #footer_display {
   display: flex;
@@ -556,10 +563,7 @@ header a:hover {
   .card_menu {
     display: block;
     box-shadow: 10px 1px 10px 1px #888888;
-    width: 30%;
-    height: 280px;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    width: 40%;
     margin: 2%;
     border-radius: 10px;
   }
