@@ -53,3 +53,28 @@
         transform : scale(1.5);
         }
 
+        .lne_h3_forme,.lpdg_h3_forme,.lcalf_h3_forme1,.lcalf_h3_forme2,.lcalf_h3_forme3,.lddp_h3_forme1,.lddp_h3_forme2,.lddp_h3_forme3{
+                position: relative;
+                text-decoration: none;
+                
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 40%;
+                    transform: scale(0, 0);
+                    height: 10px;
+                    background-color: rgba(3, 3, 3, 0.8);
+                    transition: transform 450ms;
+                }
+                
+                &:hover {
+                    
+                    &::after {
+                        transform: scale(2, 0.5);
+                        transform-origin: left;
+                        width: 10%;
+                    }
+                    
+                }
+            }  
