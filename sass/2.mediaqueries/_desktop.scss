@@ -23,5 +23,11 @@
         width        : 30%;  
         margin       : 2%;
         border-radius: 10px;
+        fill-opacity: 1;
+    }
+    .card_menu:hover{
+        fill-opacity: 0.5;
+        transition: 0.82s;
+        
     }
 }
