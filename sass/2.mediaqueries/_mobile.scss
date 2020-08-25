@@ -10,10 +10,11 @@
         font-size: 1.5em;
     }
     #index_carte_display{
-        display       : flex;
-        flex-direction: column;
+        display        : flex;
+        flex-direction : column;
         justify-content: center;
-        margin-top: 150px;
+        margin-top     : 150px;
+        margin-bottom  : 150px;
     }
     .card_menu{
         display       : block;

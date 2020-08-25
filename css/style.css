@@ -481,6 +481,7 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     margin-top: 150px;
+    margin-bottom: 150px;
   }
 
   .card_menu {
@@ -554,6 +555,7 @@ header a:hover {
     margin-top: 150px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 150px;
   }
 
   .card_menu {
