@@ -42,7 +42,7 @@ header a:hover {color:#ffd700;}
 .hr_lddp_left2,.hr_lddp_right2{background-color:$colorlddp2;}
 .hr_lddp_left3,.hr_lddp_right3{background-color:$colorlddp3;}
     /* la palette du gout */
-.color_lpdg_titre, #lapalettedugout a p,{
+.color_lpdg_titre, #lapalettedugout a p{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
