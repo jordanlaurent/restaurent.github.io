@@ -206,6 +206,7 @@ body, html {
 
 header, footer {
   width: 100%;
+  left: 0;
 }
 
 header {
@@ -228,10 +229,6 @@ header {
   justify-content: space-between;
   padding-right: 5%;
   padding-left: 5%;
-}
-
-.body_carte_display {
-  margin-top: 200px;
 }
 
 /* HR gauche droite aux niveaux des inter-titres dans les cartes */
@@ -311,11 +308,11 @@ header, footer {
   background-color: #fdfffd;
 }
 
-#lechicalafrancaise {
+#lechicalafrancaise, .color_carte_lcalf {
   background-color: #fff5fe;
 }
 
-#ledelicedespapilles {
+#ledelicedespapilles, .color_carte_lddp {
   background-color: #f9f9f9;
 }
 
@@ -498,6 +495,12 @@ header a:hover {
     fill-opacity: 0.5;
     transition: 0.82s;
   }
+
+  .body_carte_display {
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 450px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .lpdgfont li {
@@ -578,6 +581,19 @@ header a:hover {
     fill-opacity: 0.5;
     transition: 0.82s;
   }
+
+  .color_carte_lne, .color_carte_lpdg, .color_carte_lcalf, .color_carte_lddp {
+    margin-top: 250px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 250px;
+    box-shadow: 10px 1px 10px 1px #888888;
+  }
+
+  .body_carte_display {
+    width: 60%;
+    margin: auto;
+  }
 }
 .animationfooter:hover {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
@@ -597,6 +613,7 @@ header a:hover {
 
 #lanotenechente a p:hover {
   font-size: 280%;
+  transition: 0.9s;
 }
 
 #lechicalafrancaise:hover {
@@ -605,6 +622,7 @@ header a:hover {
 
 #lechicalafrancaise a p:hover {
   font-size: 500%;
+  transition: 0.9s;
 }
 
 #ledelicedespapilles:hover {
@@ -613,6 +631,7 @@ header a:hover {
 
 #ledelicedespapilles a p:hover {
   font-size: 380%;
+  transition: 0.9s;
 }
 
 #lapalettedugout:hover {
@@ -621,6 +640,7 @@ header a:hover {
 
 #lapalettedugout a p:hover {
   font-size: 380%;
+  transition: 0.9s;
 }
 
 @keyframes shake {
@@ -674,7 +694,7 @@ header a:hover {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 30%;
   transform: scale(0, 0);
   height: 10px;
   background-color: rgba(3, 3, 3, 0.8);
@@ -683,7 +703,7 @@ header a:hover {
 .lne_h3_forme:hover::after, .lpdg_h3_forme:hover::after, .lcalf_h3_forme1:hover::after, .lcalf_h3_forme2:hover::after, .lcalf_h3_forme3:hover::after, .lddp_h3_forme1:hover::after, .lddp_h3_forme2:hover::after, .lddp_h3_forme3:hover::after {
   transform: scale(2, 0.5);
   transform-origin: left;
-  width: 10%;
+  width: 20%;
 }
 
 /*# sourceMappingURL=style.css.map */

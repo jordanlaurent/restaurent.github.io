@@ -17,17 +17,21 @@
         margin-bottom  : 150px;
     }
     .card_menu{
-        display       : block;
-        margin-bottom : 5%;
-        box-shadow    : 10px 1px 10px 1px #888888;
-        margin-right  : 10%;
-        border-radius : 1;
-        fill-opacity: 1;
+        display      : block;
+        margin-bottom: 5%;
+        box-shadow   : 10px 1px 10px 1px #888888;
+        margin-right : 10%;
+        border-radius: 1;
+        fill-opacity : 1;
 
     }
     .card_menu:hover{
         fill-opacity: 0.5;
-        transition: 0.82s;
-        
+        transition  : 0.82s;
+        }
+    .body_carte_display{
+        margin-top: 200px;
+        width: 100%;
+        margin-bottom: 450px;
     }
 }

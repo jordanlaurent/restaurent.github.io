@@ -10,13 +10,13 @@
         padding-left       : 10px; padding-right: 10px;
     } 
     #lanotenechente:hover{background-color: rgba(241, 245, 241, 0);}
-    #lanotenechente a p:hover{font-size        : 280%;}
+    #lanotenechente a p:hover{font-size        : 280%;transition: 0.90s;}
     #lechicalafrancaise:hover{ background-color: rgba(241, 245, 241, 0);}
-    #lechicalafrancaise a p:hover{font-size        : 500%;}
+    #lechicalafrancaise a p:hover{font-size        : 500%;transition: 0.90s;}
     #ledelicedespapilles:hover{background-color: rgba(241, 245, 241, 0);}
-    #ledelicedespapilles a p:hover{font-size        : 380%;}
+    #ledelicedespapilles a p:hover{font-size        : 380%;transition: 0.90s;}
     #lapalettedugout:hover{background-color: rgba(241, 245, 241, 0);}
-    #lapalettedugout a p:hover{font-size        : 380%;}
+    #lapalettedugout a p:hover{font-size        : 380%;transition: 0.90s;}
     @keyframes shake { 
         10%, 90% { 
         transform: translate3d(-1px, 0, 0); 
@@ -61,7 +61,7 @@
                     content: '';
                     position: absolute;
                     bottom: 0;
-                    left: 40%;
+                    left: 30%;
                     transform: scale(0, 0);
                     height: 10px;
                     background-color: rgba(3, 3, 3, 0.8);
@@ -73,7 +73,7 @@
                     &::after {
                         transform: scale(2, 0.5);
                         transform-origin: left;
-                        width: 10%;
+                        width: 20%;
                     }
                     
                 }

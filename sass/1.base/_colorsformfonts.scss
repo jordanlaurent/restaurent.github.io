@@ -7,22 +7,10 @@ header, footer{background-color:$colorheaderfooter;}
 
 /* couleur de fonds carte page individuelle */
 .color_carte_lne{background-color: $color_carte_lne;}
-
-
-#lanotenechente  {
-    background-color:$color_carte_lne ;
-}
-#lapalettedugout {
-    background-color:$color_carte_lpdg;
-}
-#lechicalafrancaise{
-    background-color: $color_carte_lcalf;
-}
-
-#ledelicedespapilles{
-    background-color: $color_carte_lddp ;
-    
-}
+#lanotenechente  {background-color:$color_carte_lne ;}
+#lapalettedugout{background-color:$color_carte_lpdg;}
+#lechicalafrancaise,.color_carte_lcalf{background-color: $color_carte_lcalf;}
+#ledelicedespapilles,.color_carte_lddp{background-color: $color_carte_lddp ;}
 /* COLORS FONTS */
 
 header a , footer, footer a , .prochainement{color:$colorH1fonts ;}
@@ -34,9 +22,7 @@ header a:hover {color:#ffd700;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 
-.hr_lne_left , .hr_lne_right{
-    background-color:#000000 ;
-}
+.hr_lne_left, .hr_lne_right{background-color:#000000 ;}
 /* le chic a la francaise */
 .color_lcalf_titre, #lechicalafrancaise a p{
     background-image       : linear-gradient(100deg, #d38140,#8f5bfe);
@@ -56,7 +42,7 @@ header a:hover {color:#ffd700;}
 .hr_lddp_left2,.hr_lddp_right2{background-color:$colorlddp2;}
 .hr_lddp_left3,.hr_lddp_right3{background-color:$colorlddp3;}
     /* la palette du gout */
-.color_lpdg_titre, #lapalettedugout a p{
+.color_lpdg_titre, #lapalettedugout a p,{
     background-image       : linear-gradient(100deg, #489b40,#beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
