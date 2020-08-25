@@ -24,7 +24,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     padding-right: 5%;
-    padding-left: 5%
+    padding-left: 5%;
 }
 .body_carte_display{
     margin-top: 200px;
@@ -69,7 +69,7 @@ padding-top        : 20px;}
 
 footer {
     bottom        : 0;
-    position      : relative;
+    position      : fixed;
     padding-bottom: 15px;
 }
 footer ul a {
