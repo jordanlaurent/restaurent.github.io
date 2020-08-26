@@ -219,7 +219,7 @@ header {
   padding-right: 15%;
   padding-left: 15%;
   padding-top: 200px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 /* contenue page des cartes */
@@ -487,7 +487,7 @@ header a:hover {
     margin-bottom: 5%;
     box-shadow: 10px 1px 10px 1px #888888;
     margin-right: 10%;
-    border-radius: 1px;
+    border-radius: 1;
     fill-opacity: 1;
   }
 
