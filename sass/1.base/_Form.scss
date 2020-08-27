@@ -28,22 +28,6 @@ header{
     padding-left: 5%;
 }
 
-/* HR gauche droite aux niveaux des inter-titres dans les cartes */
-.hr_lne_left,.hr_lpdg_left,.hr_lcalf_left1,.hr_lcalf_left2,.hr_lcalf_left3,.hr_lddp_left1,.hr_lddp_left2,.hr_lddp_left3{
-      height : 5px;
-      width  : 8%;
-     position: absolute;
-      left   :  0;
-}
-.hr_lne_right,.hr_lpdg_right,.hr_lcalf_right1,.hr_lcalf_right2,.hr_lcalf_right3,.hr_lddp_right1,.hr_lddp_right2,.hr_lddp_right3{
-     height    : 5px;
-     width     : 8%;
-     position  : absolute;
-     right     : 0;
-     margin-top: -35px;
-}
-
-
 /* page index */
 .prochainement{
         text-align      : center;
@@ -59,19 +43,8 @@ section ul a {
         }
 
 /* Footer */
-#footer_display{
-    display        : flex;
-    flex-direction : row;
-    flex-wrap      : wrap;
-    justify-content: space-evenly;
-    list-style     : none;
-padding-top        : 20px;}
 
-footer {
-    bottom        : 0;
-    position      : fixed;
-    padding-bottom: 15px;
-}
+
 footer ul a {
     display: block;
     padding: 10px;
