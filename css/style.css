@@ -443,6 +443,11 @@ header a:hover {
     font-size: 1.5em;
   }
 
+  .color_carte_lne {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
   #index_carte_display {
     display: flex;
     flex-direction: column;
