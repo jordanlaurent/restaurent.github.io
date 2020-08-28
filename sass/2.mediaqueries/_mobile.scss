@@ -6,6 +6,9 @@
     header a{
         font-size: 2em;
     }
+    body{
+        margin-bottom: 200px;
+    }
     footer{
         font-size: 1.5em;
     }
@@ -36,10 +39,11 @@
     .body_carte_display{
         margin-top: 150px;
         width: 100%;
+
     }
     footer {
         bottom        : 0;
-        position: static;
+        position: fixed;
         padding-bottom:1px;
     }
     #footer_display{
