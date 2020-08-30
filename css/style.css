@@ -616,7 +616,7 @@ header a:hover {
     height: 5px;
     width: 13%;
     position: absolute;
-    left: 100px;
+    left: 20%;
     border: 3px;
   }
 
@@ -624,8 +624,7 @@ header a:hover {
     height: 5px;
     width: 13%;
     position: absolute;
-    right: 100px;
-    margin-top: -35px;
+    right: 20%;
     border: 3px;
   }
 }
