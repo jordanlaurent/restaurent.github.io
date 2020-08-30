@@ -614,7 +614,7 @@ header a:hover {
   /* HR gauche droite aux niveaux des inter-titres dans les cartes */
   .hr_lne_left, .hr_lpdg_left, .hr_lcalf_left1, .hr_lcalf_left2, .hr_lcalf_left3, .hr_lddp_left1, .hr_lddp_left2, .hr_lddp_left3 {
     height: 5px;
-    width: 18%;
+    width: 13%;
     position: absolute;
     left: 100px;
     border: 3px;
@@ -622,7 +622,7 @@ header a:hover {
 
   .hr_lne_right, .hr_lpdg_right, .hr_lcalf_right1, .hr_lcalf_right2, .hr_lcalf_right3, .hr_lddp_right1, .hr_lddp_right2, .hr_lddp_right3 {
     height: 5px;
-    width: 18%;
+    width: 13%;
     position: absolute;
     right: 100px;
     margin-top: -35px;
