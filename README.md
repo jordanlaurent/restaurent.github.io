@@ -1,4 +1,4 @@
-<h2>Projet n°2 OpenClassRooms OhMyFood<h2>
+<h2>Projet n°3 OpenClassRooms OhMyFood<h2>
 <h3>Techno<h3>
 <p>• HTML5 • SASS • CSS<p>
 
